@@ -1,0 +1,25 @@
+Arquivos em Resources que não são utilizados no código ou recursos:
+
+- Background-old.bmp
+- Background-old.png
+- Backgroundold.bmp
+- Backgrounda.png
+- CRIAR CONTA  LEAVE.png
+- Criar Conta Enter.png
+- Criar Conta Offline.png
+- CriarConta.png
+- CriarContaDown.png
+- CriarContaEnter.png
+- CriarContaLeave.png
+- Discord2.png
+- DiscordDown2.png
+- DiscordEnter2.png
+- DiscordLeave2.png
+- Escanear.gif.png
+- EscanearDown.gif.png
+- EscanearEnter.gif.png
+- EscanearLeave.gif.png
+- OptionsLauncher.bmp
+- Start2.png
+
+Esses arquivos podem ser apagados com segurança, pois não são referenciados no código, XAML ou arquivos de recursos do projeto.

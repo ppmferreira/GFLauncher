@@ -1,0 +1,299 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>[Option]
+// Modo de Tela Cheia 0 Não / 1 Sim
+FullScreenMode=1
+// Largura da tela
+ScreenWidth=1280
+// Altura da tela
+ScreenHeight=720
+// Frequência da tela
+ScreenFrequency=144
+// Exibição de caracteres	1 ~ 40
+ViewCharacterRange=40
+// Distância da cena	1 ~ 5
+ViewRange=5
+// Número de efeitos especiais	1 ~ 25
+CharacterEffectNum=25
+// Display sombreado	1 Nenhum / 2 Sim / 3 Todos
+ShadowLevel=3
+// Qualidade da sombra	1 ~ 5  (Sombra redonda normal ~ Sombras realistas detalhadas) 
+ShadowType=5
+// Material do personagem
+CharacterTexture=1
+// Material de cena
+SceneTexture=1
+// Qualidade do material
+MaxAnisotropic=1
+// usar efeito preto e branco 0 Nenhum / 1 Sim
+PPMonochrome=1
+// Usar efeitos fotográficos 0 Nenhum / 1 Sim
+PPSepia=1
+// Use o efeito de profundidade de campo 0 Nenhum / 1 Sim
+BloomShader=3
+// Brilho do Jogo
+DepthOfField=0
+// Limite de folha
+FpsLockValue=120
+// Otimização dinâmica
+DynamicVideoSetting=1
+// Bloqueio de coluna de status extra 0 Não / 1 Sim
+EnchantListLock0=0
+EnchantListLock1=0
+EnchantListLock2=0
+EnchantListLock3=0
+EnchantListLock4=0
+// Coluna de status de meta extra Positividade 0 Fecho / 1~3 Modelo
+TargetEnchantListP=0
+// Coluna de status de meta extra Negativo 0 Fecho / 1~3 Modelo
+TargetEnchantListN=0
+// Status de autoefeito adicional 0 Fecho / 1~3 Modelo
+PlayerEnchantListQuick=0
+// Próprio estado extra Positividade 0 Fecho / 1~3 Modelo
+PlayerEnchantListP=0
+// Próprio estado extra Negativo 0 Fecho / 1~3 Modelo
+PlayerEnchantListN=0
+// BMG Método de jogo 0 Valor Padrão / 1 Loop de Musica / 2 Circuito de som ambiente
+BGMType=0
+// Volume da Música 0.0 ~ 1.0 (pequeno -&gt; grande)
+BGMValoume=0.0
+// Volume do som 0.0 ~ 1.0 (pequeno -&gt; grande)
+SoundValoume=0.0
+// Se deve silenciar 0 Fechar / 1 Abrir
+SoundMute=0
+// Velocidade do mouse 1 ~ 20 (lento -&gt; rápido)
+MouseSpeed=12
+// Elenco próprio 0 Fechar / 1 Abrir
+SelfConjuration=1
+// Exibição do jogador 0 Fechar / 1 Abrir
+PlayerName=1
+// Exibição da guilda 0 Fechar / 1 Abrir
+PlayerFamily=1
+// Exibição de título 0 Fechar / 1 Abrir
+PlayerAppellation=1
+// Exibição de capacete 0 Não / 1 Sim
+ShowArmet=1
+// Exibição de capa 0 Não / 1 Sim
+ShowCloak=1
+// NPCNome  0 Fechar / 1 Abrir
+NpcName=1
+// Fonte fina(nova barra de nome) 0 Fechar / 1 Abrir
+HIDUI=1
+// Visor numérico 0 Fechar / 1 Abrir
+PlayerLife=1
+// Valor da vida inimigo 0 Fechar / 1 Abrir
+EnemyLife=1
+// Machucar os outros 0 Fechar / 1 Abrir
+OthersDamage=0
+// Recuse-se a negociar 0 Fechar / 1 Abrir
+RejectTrade=0
+// Exibição de atalho 0 Fechar / 1 Abrir
+FastBar=1
+// Recuse-se a duelar 0 Fechar / 1 Abrir
+RejectDuel=0
+// Exibição de barra de sangue 0 Fechar / 1 Abrir
+PlayerBlood=1
+// Aprimoramento de rastreamento 0 Fechar / 1 Abrir
+ReinforceTrace=1
+// efeitos de círculo mágico 0 Fechar / 1 Abrir
+RotateGroundCircle=1
+// Recusar-se a andar 0 Fechar / 1 Abrir
+RejectCoRide=0
+// Rejeitar o anel 0 Fechar / 1 Abrir
+RejectElfBetGames=0
+// Notificação de tarefa 0 Fechar / 1 Abrir
+NotifyMission=0
+// DICA exibição simples 0 Fechar / 1 Abrir
+SimplfyTips=0
+// Recuse-se a sentar-se com 0 Fechar / 1 Abrir
+RejectCoSitChair=0
+// Efeito de objeto	0 Fechar / 1 Abrir	( Propriedade Sim Não Mostrar )
+Enhide=1
+// Fineza da imagem	0 ~ 2	( 0 普通 / 1 好 / 2 最好 )
+ScreenLevel=2
+// Teclado Modelo 0 Fechar / 1 Abrir
+KeyboardMode=1
+
+[Channel]
+// Grupo de Canais
+ChannelGroupName1=All
+ChannelGroupValue1=14463
+ChannelGroupName2=Party
+ChannelGroupValue2=6
+ChannelGroupName3=Guild
+ChannelGroupValue3=8
+ChannelGroupName4=Combat
+ChannelGroupValue4=24448
+RightChannelGroup=-1
+ChannelVersion=3
+
+// Bloqueio de barra de atalho 0 Não / 1 Sim
+ShortcutLock=0
+SaveTga=0
+// nova barra de atalhos Sim Não Mostrar 0 Não / 1 Sim / 2 Papel
+NewShortcutShow=1
+// Exibição da interface de rastreamento de tarefas 0 Não / 1 Sim
+ShowMissionTrace=0
+// Despertador 1
+TinyClockAlarm1=0
+// Despertador 2
+TinyClockAlarm2=0
+// Despertador 3
+TinyClockAlarm3=0
+
+// Guia assistente
+ElfPage=0
+
+[MapOption]
+// Mostrar filtro de mapa
+MapGateway=1
+MapCity=1
+MapMissionGet=1
+MapMissionGain=1
+MapIndex=1
+
+
+[Other Option]
+Account=
+Activity=0
+AutoLogin=0
+FilterFinished=0
+Renderer=999
+DynamicEventFirst=1</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAABMLAAATCwAAAAAAAAAA
+        AAAFBQUABQUFAAUFBQAFBQUABQUFAAUFBQAFBQUABQUFAAUFBQAFBQUABQUFAAUFBQBISf//DwD4/w8A
+        +P8RAO7/FgDd/xYA3f8YAND/FQr//wUFBQAFBQUABQUFAAUFBQAFBQUABQUFAAUFBQAFBQUABQUFAAUF
+        BQAFBQUABQUFAAUFBQAFBQUABQUFAAUFBQAFBQUABQUFAAUFBQAFBQUABQUFAEhJ//8ZEv//GRL//w0A
+        /f8PAPj/DQD9/w0A/f8PAPj/DwD4/w8A+P8PAPj/FgDd/xYA3f9ISf//BQUFAAUFBQAFBQUABQUFAAUF
+        BQAFBQUABQUFAAUFBQAFBQUABQUFAAUFBQAFBQUABQUFAAUFBQAFBQUABQUFAEhJ//8ZEv//DwP//xUK
+        //8ZEv//Hxv//xwW//8fG///Hxv//xwW//8cFv//HBb//xkS//8ZEv//DwP//w8A+P8VAOj/Hxv//wUF
+        BQAFBQUABQUFAAUFBQAFBQUABQUFAAUFBQAFBQUABQUFAAUFBQAFBQUABQUFAAUFBQBISf//FQr//xwW
+        //8fG///MCr//zg2//9DQv//Q0L//zg2//84Nv//ODb//zg2//84Nv//JSH//x8b//8fG///Hxv//xkS
+        //8VAOj/Hxv//wUFBQAFBQUABQUFAAUFBQAFBQUABQUFAAUFBQAFBQUABQUFAAUFBQAFBQUAGRL//yUh
+        //8wKv//ODb//0hJ//9ISf//SEn//01Q//9fZf//WF///01Q//9DQv//Q0L//01Q//9ISf//Q0L//zg2
+        //8lIf//JSH//yUh//8PAPj/DwD4/wUFBQAFBQUABQUFAAUFBQAFBQUABQUFAAUFBQAFBQUABQUFAEhJ
+        //84Nv//SEn//01Q//9YX///Zmv//19l//9fZf//aW///3B1//9pb///Zmv//19l//9ma///Zmv//2Zr
+        //9ma///X2X//1hf//9NUP//Q0L//yUh//8PA///DQD9/wUFBQAFBQUABQUFAAUFBQAFBQUABQUFAAUF
+        BQBISf//JSH//19l//+KkP//ipD//3B1//95fv//cHX//3l+//95fv//eX7//3l+//95fv//eX7//3l+
+        //95fv//eX7//3B1//9wdf//cHX//3B1//9fZf//SEn//yUh//8PAPj/MCr//wUFBQAFBQUABQUFAAUF
+        BQAFBQUABQUFABkS//84Nv//oqb//73B//+ipv//gYb//4GG//+Bhv//eX7//3l+//95fv//gYb//4GG
+        //+Bhv//gYb//4GG//+Bhv//gYb//4GG//+Bhv//cHX//7C0//95fv//ODb//xkS//8RAO7/BQUFAAUF
+        BQAFBQUABQUFAAUFBQAFBQUAHBb//zg2//9wdf//gYb//zAq//8zLv//My7//4GG//95fv//eX7//3l+
+        //95fv//eX7//3l+//95fv//gYb//4GG//+Bhv//gYb//zMu//8zLv//MCr//6Km//9ma///ODb//w0A
+        /f8wKv//BQUFAAUFBQAFBQUABQUFAEhJ//8fG///ODb//01Q//8lIf///Pv///z7///8+///MCr//3B1
+        //9ma///Zmv//2lv//9wdf//aW///2Zr//9pb///cHX//3l+//8wKv///Pv///z7///8+///JSH//zg2
+        //8lIf//DwP//w0A/f8FBQUABQUFAAUFBQAFBQUAJSH//yUh//84Nv//GRL///z7//9MTEz/BQUF/0xM
+        TP/8+///HBb//1hf//9YX///X2X//2Zr//9fZf//TVD//1hf//9YX///Hxv///z7//9MTEz/BQUF/0xM
+        TP/8+///DwP//x8b//8cFv//DwD4/wUFBQAFBQUABQUFAAUFBQAcFv//MCr//xUK///8+///TExM/woK
+        Cv8FBQX/BQUF/0xMTP/8+///GRL//0NC//9YX///Zmv//1hf//9DQv//TVD//xwW///8+///TExM/wUF
+        Bf8FBQX/BQUF/0xMTP/8+///FQr//x8b//8PAPj/BQUFAAUFBQAFBQUABQUFACUh//9YX///HBb///z7
+        //8FBQX/BQUF/wUFBf8FBQX/BQUF//z7//8ZEv//Q0L//1hf//9fZf//WF///0NC//9NUP//HBb///z7
+        //8FBQX/BQUF/wUFBf8FBQX/BQUF//z7//8VCv//HBb//w8D//8FBQUABQUFAAUFBQAFBQUAJSH//3B1
+        //8lIf///Pv//0xMTP8FBQX/BQUF/wUFBf9MTEz//Pv//xwW//9NUP//WF///1hf//9YX///TVD//1hf
+        //8fG////Pv//0xMTP8FBQX/BQUF/wUFBf9MTEz//Pv//w0A/f8cFv//DwP//wUFBQAFBQUABQUFAAUF
+        BQAPAPj/cHX//3l+//8fG////Pv//0xMTP8FBQX/TExM//z7//8NAP3/WF///1hf//9fZf//X2X//1hf
+        //9YX///WF///1hf//8fG////Pv//0xMTP8FBQX/TExM//z7//8VCv//JSH//yUh//8ZEv//BQUFAAUF
+        BQAFBQUABQUFAA8A+P9ma///kZf//19l//8lIf///Pv///z7///8+///Hxv//1hf//9YX///YWj//2Fo
+        //9haP//YWj//2Fo//9haP//YWj//1hf//8fG////Pv///z7///8+///Hxv//01Q//84Nv//ODb//w8D
+        //8FBQUABQUFAAUFBQBma///FQDo/0NC//+Rl///aW///19l//8lIf//JSH//yUh//9haP//YWj//2Fo
+        //9haP//YWj//2Fo//9haP//YWj//2Fo//9haP//X2X//1hf//8fG///Hxv//yUh//9fZf//X2X//1hf
+        //84Nv//DQD9/wUFBQAFBQUABQUFAF9l//8ZAM3/ODb//5GX//+KkP//aW///3B1//9wdf//cHX//2lv
+        //9pb///YWj//2Fo//9haP//YWj//2Fo//9haP//YWj//2Fo//9haP//X2X//19l//9haP//aW///19l
+        //9wdf//X2X//zg2//8YAND/DQD9/wUFBQAFBQUAGRL//xUA6P8ZAM3/ipD//5qf//+Bhv//gYb//3l+
+        //95fv//cHX//3B1//9pb///aW///2lv//9pb///aW///2lv//9haP//YWj//2Fo//9haP//YWj//2lv
+        //9pb///X2X//19l//9NUP//Q0L//xcA1v8ZAM3/BQUFAAUFBQAPA///FQDo/19l//9wdf//mp///5GX
+        //+KkP//ipD//4qQ//+Bhv//eX7//3l+//95fv//eX7//3l+//9wdf//cHX//3B1//9pb///aW///3B1
+        //9wdf//cHX//2lv//9pb///WF///1hf//8VCv//FgDd/xgA0P8PA///Zmv//xUA6P+KkP//oqb//2lv
+        //+KkP//oqb//5OZ//+Rl///kZf//5GX//+Rl///ipD//4qQ//+KkP//oqb//4qQ//+Bhv//gYb//3l+
+        //+Bhv//gYb//3l+//95fv//aW///2lv//+Rl///gYb//2Zr//9NUP//FwDW/xEA7v8VAOj/Zmv//3B1
+        //9wdf//Q0L//3l+//+ipv//oqb//5qf//+an///mp///5qf//+an///mp///7C0//+9wf//sLT//6qv
+        //+Rl///oqb//4qQ//+KkP//gYb//3l+//9wdf//ipD//5OZ//9NUP//X2X//3B1//9DQv//GQDN/wUF
+        BQAFBQUABQUFAAUFBQAVAOj/GQDN/5OZ//+ipv//mp///6Km//+ipv//oqb//7C0//+9wf//vcH//8TI
+        ///Mz///zM///73B///EyP//oqb//4qQ//+Rl///eX7//4GG//+Rl///ODb//xkAzf8FBQUABQUFAAUF
+        BQAFBQUABQUFAAUFBQAFBQUABQUFABUA6P8VAOj/GQDN/5qf//+an///mp///6Km//+ipv//oqb//73B
+        ///EyP//zM///8zP//+9wf//xMj//6qv//+Tmf//mp///4GG//+KkP//kZf//19l//8ZAM3/FQDo/wUF
+        BQAFBQUABQUFAAUFBQAFBQUABQUFAAUFBQAFBQUADwD4/xUA6P8zLv//eX7//5GX//+ipv//oqb//5qf
+        //+an///oqb//6Km//+9wf//vcH//7C0//+an///mp///4qQ//+Rl///k5n//5OZ//9DQv//GQDN/xUA
+        6P8VAOj/BQUFAAUFBQAFBQUABQUFAAUFBQAFBQUABQUFAAUFBQAVAOj/My7//5qf//+an///X2X//3l+
+        //+an///oqb//6Km//+Tmf//k5n//5qf//+Tmf//ipD//5GX//+Rl///k5n//5OZ//95fv//GRL//zg2
+        //84Nv//GQDN/xUA6P8FBQUABQUFAAUFBQAFBQUABQUFAAUFBQAFBQUAWF///zMu//+an///eX7//3l+
+        //95fv//MCr//zAq//+an///kZf//5GX//+KkP//gYb//4GG//+Rl///ipD//4GG//9NUP//ODb//x8b
+        //9fZf//X2X//3B1//8XANb/FQDo/wUFBQAFBQUABQUFAAUFBQAFBQUABQUFAAUFBQAzLv//eX7//3l+
+        //8FBQUABQUFAAUFBQAFBQUABQUFADg2//9DQv//My7//zMu//8zLv//My7//zg2//8VCv//FQr//zMu
+        //8FBQUABQUFAAUFBQBfZf//X2X//19l//8YAND/BQUFAAUFBQAFBQUABQUFAAUFBQAFBQUABQUFAAUF
+        BQAFBQUABQUFAAUFBQAFBQUABQUFAAUFBQAFBQUABQUFAFhf//9fZf//Zmv//zMu//8YAND/GQDN/w8A
+        +P8zLv//BQUFAAUFBQAFBQUABQUFAAUFBQAFBQUAX2X//xgA0P8FBQUABQUFAAUFBQAFBQUABQUFAAUF
+        BQAFBQUABQUFAAUFBQAFBQUABQUFAAUFBQAFBQUABQUFAAUFBQAFBQUABQUFAGFo//9wdf//cHX//w8A
+        +P8PAPj/My7//wUFBQAFBQUABQUFAAUFBQAFBQUABQUFAAUFBQAFBQUABQUFAAUFBQAFBQUABQUFAAUF
+        BQAFBQUABQUFAAUFBQAFBQUABQUFAAUFBQAFBQUABQUFAAUFBQAFBQUABQUFAAUFBQAFBQUABQUFAHB1
+        //9ma///DwD4/zMu//8FBQUABQUFAAUFBQAFBQUABQUFAAUFBQAFBQUABQUFAAUFBQAFBQUABQUFAAUF
+        BQAFBQUABQUFAAUFBQAFBQUABQUFAAUFBQAFBQUABQUFAAUFBQAFBQUABQUFAAUFBQAFBQUABQUFAAUF
+        BQAFBQUABQUFAHB1//8PAPj/BQUFAAUFBQAFBQUABQUFAAUFBQAFBQUABQUFAAUFBQAFBQUABQUFAAUF
+        BQAFBQUABQUFAAUFBQAFBQUA//AP//+AAf/+AAB//AAAP/gAAB/wAAAP4AAAB+AAAAfgAAADwAAAA8AA
+        AAPAAAADwAAAA8AAAAPAAAADwAAAA4AAAAOAAAABgAAAAYAAAAAAAAAAAAAAAPAAAA/wAAAP8AAAD/AA
+        AA/gAAAP4+AHD//wD8//+B////w////+f/8=
+</value>
+  </data>
+</root>

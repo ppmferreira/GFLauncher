@@ -1,0 +1,5 @@
+C:\Users\disco\OneDrive\Área de Trabalho\GFLauncher\GFLauncher.exe
+C:\Users\disco\OneDrive\Área de Trabalho\GFLauncher\GFLauncher.dll
+C:\Users\disco\OneDrive\Área de Trabalho\GFLauncher\GFLauncher.deps.json
+C:\Users\disco\OneDrive\Área de Trabalho\GFLauncher\GFLauncher.runtimeconfig.json
+C:\Users\disco\OneDrive\Área de Trabalho\GFLauncher\GFLauncher.pdb

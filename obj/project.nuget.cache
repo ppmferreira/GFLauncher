@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "tnySc1/VdB0=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\pedro\\Desktop\\MMO-Launcher\\launcher\\GFLauncher\\GFLauncher.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pedro\\.nuget\\packages\\microsoft.web.webview2\\1.0.3351.48\\microsoft.web.webview2.1.0.3351.48.nupkg.sha512"
+  ],
+  "logs": []
+}

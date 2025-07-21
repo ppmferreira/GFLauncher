@@ -1,0 +1,49 @@
+﻿<Window x:Name="Window" x:Class="GFLauncher.HudConfigs"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GFLauncher"
+        mc:Ignorable="d"
+        Title="HudConfigs" Height="414" Width="433" ResizeMode="NoResize" WindowStyle="None" MouseLeftButtonDown="Window_MouseLeftButtonDown" AllowsTransparency="True" WindowStartupLocation="CenterScreen">
+    <Window.Background>
+        <ImageBrush ImageSource="/LaucherBK.png"/>
+    </Window.Background>
+    <Grid>
+        <Label Content="Configurações" HorizontalAlignment="Left" Margin="122,10,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btn_Option" Content="Opções" HorizontalAlignment="Left" Margin="216,70,0,0" VerticalAlignment="Top" Width="101" Click="Button_Click" Height="26" FontSize="14" FontFamily="Arial" BorderBrush="#00808080">
+            <Button.Background>
+                <ImageBrush ImageSource="/button-background.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btn_sound" Content="Sons" HorizontalAlignment="Left" Margin="216,105,0,0" VerticalAlignment="Top" Width="101" Click="btn_sound_Click" Height="26" BorderBrush="#00707070" FontSize="14" FontFamily="Arial">
+            <Button.Background>
+                <ImageBrush ImageSource="/button-background.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btn_Tools" Content="Ferramentas" HorizontalAlignment="Left" Margin="216,140,0,0" VerticalAlignment="Top" Width="101" Click="btn_Tools_Click" Height="26" FontSize="14" FontFamily="Arial">
+            <Button.Background>
+                <ImageBrush ImageSource="/button-background.png"/>
+            </Button.Background>
+            <Button.BorderBrush>
+                <ImageBrush/>
+            </Button.BorderBrush>
+        </Button>
+        <Button x:Name="btn_Close" Content="Fechar" HorizontalAlignment="Left" Margin="216,325,0,0" VerticalAlignment="Top" Width="101" Click="btn_Close_Click" BorderBrush="#00707070" Height="26" FontFamily="Arial" FontSize="14">
+            <Button.Background>
+                <ImageBrush ImageSource="/button-background.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btn_accounts" Content="Contas" HorizontalAlignment="Left" Margin="216,175,0,0" VerticalAlignment="Top" Width="101" Click="btn_Accounts_Click" BorderBrush="#00707070" Height="26" FontSize="14" FontFamily="Arial">
+            <Button.Background>
+                <ImageBrush ImageSource="/button-background.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btn_about1" Content="Sobre" HorizontalAlignment="Left" Margin="216,210,0,0" VerticalAlignment="Top" Width="102" Click="btn_about_Click" BorderBrush="#00707070" Height="26" FontSize="14" FontFamily="Arial">
+            <Button.Background>
+                <ImageBrush ImageSource="/button-background.png"/>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Window>

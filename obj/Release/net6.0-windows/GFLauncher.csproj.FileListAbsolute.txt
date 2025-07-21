@@ -1,0 +1,127 @@
+C:\Users\disco\OneDrive\Área de Trabalho\GFLauncher\GFLauncher\bin\Release\net6.0-windows\GFLauncher.exe
+C:\Users\disco\OneDrive\Área de Trabalho\GFLauncher\GFLauncher\bin\Release\net6.0-windows\GFLauncher.deps.json
+C:\Users\disco\OneDrive\Área de Trabalho\GFLauncher\GFLauncher\bin\Release\net6.0-windows\GFLauncher.runtimeconfig.json
+C:\Users\disco\OneDrive\Área de Trabalho\GFLauncher\GFLauncher\bin\Release\net6.0-windows\GFLauncher.dll
+C:\Users\disco\OneDrive\Área de Trabalho\GFLauncher\GFLauncher\bin\Release\net6.0-windows\GFLauncher.pdb
+C:\Users\disco\OneDrive\Área de Trabalho\GFLauncher\GFLauncher\obj\Release\net6.0-windows\HudConfigs.g.cs
+C:\Users\disco\OneDrive\Área de Trabalho\GFLauncher\GFLauncher\obj\Release\net6.0-windows\language.g.cs
+C:\Users\disco\OneDrive\Área de Trabalho\GFLauncher\GFLauncher\obj\Release\net6.0-windows\GFLauncher_Content.g.cs
+C:\Users\disco\OneDrive\Área de Trabalho\GFLauncher\GFLauncher\obj\Release\net6.0-windows\GFLauncher_MarkupCompile.cache
+C:\Users\disco\OneDrive\Área de Trabalho\GFLauncher\GFLauncher\obj\Release\net6.0-windows\GFLauncher_MarkupCompile.lref
+C:\Users\disco\OneDrive\Área de Trabalho\GFLauncher\GFLauncher\obj\Release\net6.0-windows\HudConfigs.baml
+C:\Users\disco\OneDrive\Área de Trabalho\GFLauncher\GFLauncher\obj\Release\net6.0-windows\language.baml
+C:\Users\disco\OneDrive\Área de Trabalho\GFLauncher\GFLauncher\obj\Release\net6.0-windows\GFLauncher.g.resources
+C:\Users\disco\OneDrive\Área de Trabalho\GFLauncher\GFLauncher\obj\Release\net6.0-windows\GFLauncher.Form1.resources
+C:\Users\disco\OneDrive\Área de Trabalho\GFLauncher\GFLauncher\obj\Release\net6.0-windows\GFLauncher.Graphic.resources
+C:\Users\disco\OneDrive\Área de Trabalho\GFLauncher\GFLauncher\obj\Release\net6.0-windows\GFLauncher.Properties.Resources.resources
+C:\Users\disco\OneDrive\Área de Trabalho\GFLauncher\GFLauncher\obj\Release\net6.0-windows\GFLauncher.Som.resources
+C:\Users\disco\OneDrive\Área de Trabalho\GFLauncher\GFLauncher\obj\Release\net6.0-windows\GFLauncher.csproj.GenerateResource.cache
+C:\Users\disco\OneDrive\Área de Trabalho\GFLauncher\GFLauncher\obj\Release\net6.0-windows\GFLauncher.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\disco\OneDrive\Área de Trabalho\GFLauncher\GFLauncher\obj\Release\net6.0-windows\GFLauncher.AssemblyInfoInputs.cache
+C:\Users\disco\OneDrive\Área de Trabalho\GFLauncher\GFLauncher\obj\Release\net6.0-windows\GFLauncher.AssemblyInfo.cs
+C:\Users\disco\OneDrive\Área de Trabalho\GFLauncher\GFLauncher\obj\Release\net6.0-windows\GFLauncher.csproj.CoreCompileInputs.cache
+C:\Users\disco\OneDrive\Área de Trabalho\GFLauncher\GFLauncher\obj\Release\net6.0-windows\GFLauncher.dll
+C:\Users\disco\OneDrive\Área de Trabalho\GFLauncher\GFLauncher\obj\Release\net6.0-windows\refint\GFLauncher.dll
+C:\Users\disco\OneDrive\Área de Trabalho\GFLauncher\GFLauncher\obj\Release\net6.0-windows\GFLauncher.pdb
+C:\Users\disco\OneDrive\Área de Trabalho\GFLauncher\GFLauncher\obj\Release\net6.0-windows\GFLauncher.genruntimeconfig.cache
+C:\Users\disco\OneDrive\Área de Trabalho\GFLauncher\GFLauncher\obj\Release\net6.0-windows\ref\GFLauncher.dll
+C:\Users\disco\OneDrive\Área de Trabalho\GFLauncher\GFLauncher\obj\Release\net6.0-windows\AccountManagerWindow.g.cs
+C:\Users\disco\OneDrive\Área de Trabalho\GFLauncher\GFLauncher\obj\Release\net6.0-windows\AccountManagerWindow.baml
+C:\Users\Athos\Downloads\GFLauncher\GFLauncher\GFLauncher\obj\Release\net6.0-windows\AccountManagerWindow.g.cs
+C:\Users\Athos\Downloads\GFLauncher\GFLauncher\GFLauncher\obj\Release\net6.0-windows\HudConfigs.g.cs
+C:\Users\Athos\Downloads\GFLauncher\GFLauncher\GFLauncher\obj\Release\net6.0-windows\language.g.cs
+C:\Users\Athos\Downloads\GFLauncher\GFLauncher\GFLauncher\obj\Release\net6.0-windows\GFLauncher_Content.g.cs
+C:\Users\Athos\Downloads\GFLauncher\GFLauncher\GFLauncher\obj\Release\net6.0-windows\GFLauncher_MarkupCompile.cache
+C:\Users\Athos\Downloads\GFLauncher\GFLauncher\GFLauncher\obj\Release\net6.0-windows\GFLauncher_MarkupCompile.lref
+C:\Users\Athos\Downloads\GFLauncher\GFLauncher\GFLauncher\obj\Release\net6.0-windows\AccountManagerWindow.baml
+C:\Users\Athos\Downloads\GFLauncher\GFLauncher\GFLauncher\obj\Release\net6.0-windows\HudConfigs.baml
+C:\Users\Athos\Downloads\GFLauncher\GFLauncher\GFLauncher\obj\Release\net6.0-windows\language.baml
+C:\Users\Athos\Downloads\GFLauncher\GFLauncher\GFLauncher\obj\Release\net6.0-windows\GFLauncher.g.resources
+C:\Users\Athos\Downloads\GFLauncher\GFLauncher\GFLauncher\obj\Release\net6.0-windows\refint\GFLauncher.dll
+C:\Users\Athos\Downloads\GFLauncher\GFLauncher\GFLauncher\obj\Release\net6.0-windows\GFLauncher.pdb
+C:\Users\Athos\Downloads\GFLauncher\GFLauncher\GFLauncher\bin\Release\net6.0-windows\GFLauncher.exe
+C:\Users\Athos\Downloads\GFLauncher\GFLauncher\GFLauncher\bin\Release\net6.0-windows\GFLauncher.deps.json
+C:\Users\Athos\Downloads\GFLauncher\GFLauncher\GFLauncher\bin\Release\net6.0-windows\GFLauncher.runtimeconfig.json
+C:\Users\Athos\Downloads\GFLauncher\GFLauncher\GFLauncher\bin\Release\net6.0-windows\GFLauncher.dll
+C:\Users\Athos\Downloads\GFLauncher\GFLauncher\GFLauncher\bin\Release\net6.0-windows\GFLauncher.pdb
+C:\Users\Athos\Downloads\GFLauncher\GFLauncher\GFLauncher\obj\Release\net6.0-windows\GFLauncher.Form1.resources
+C:\Users\Athos\Downloads\GFLauncher\GFLauncher\GFLauncher\obj\Release\net6.0-windows\GFLauncher.Graphic.resources
+C:\Users\Athos\Downloads\GFLauncher\GFLauncher\GFLauncher\obj\Release\net6.0-windows\GFLauncher.Properties.Resources.resources
+C:\Users\Athos\Downloads\GFLauncher\GFLauncher\GFLauncher\obj\Release\net6.0-windows\GFLauncher.Som.resources
+C:\Users\Athos\Downloads\GFLauncher\GFLauncher\GFLauncher\obj\Release\net6.0-windows\GFLauncher.csproj.GenerateResource.cache
+C:\Users\Athos\Downloads\GFLauncher\GFLauncher\GFLauncher\obj\Release\net6.0-windows\GFLauncher.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Athos\Downloads\GFLauncher\GFLauncher\GFLauncher\obj\Release\net6.0-windows\GFLauncher.AssemblyInfoInputs.cache
+C:\Users\Athos\Downloads\GFLauncher\GFLauncher\GFLauncher\obj\Release\net6.0-windows\GFLauncher.AssemblyInfo.cs
+C:\Users\Athos\Downloads\GFLauncher\GFLauncher\GFLauncher\obj\Release\net6.0-windows\GFLauncher.csproj.CoreCompileInputs.cache
+C:\Users\Athos\Downloads\GFLauncher\GFLauncher\GFLauncher\obj\Release\net6.0-windows\GFLauncher.dll
+C:\Users\Athos\Downloads\GFLauncher\GFLauncher\GFLauncher\obj\Release\net6.0-windows\GFLauncher.genruntimeconfig.cache
+C:\Users\Athos\Downloads\GFLauncher\GFLauncher\GFLauncher\obj\Release\net6.0-windows\ref\GFLauncher.dll
+C:\Users\Athos\Desktop\GFLauncher\GFLauncher\GFLauncher\bin\Release\net6.0-windows\GFLauncher.exe
+C:\Users\Athos\Desktop\GFLauncher\GFLauncher\GFLauncher\bin\Release\net6.0-windows\GFLauncher.deps.json
+C:\Users\Athos\Desktop\GFLauncher\GFLauncher\GFLauncher\bin\Release\net6.0-windows\GFLauncher.runtimeconfig.json
+C:\Users\Athos\Desktop\GFLauncher\GFLauncher\GFLauncher\bin\Release\net6.0-windows\GFLauncher.dll
+C:\Users\Athos\Desktop\GFLauncher\GFLauncher\GFLauncher\bin\Release\net6.0-windows\GFLauncher.pdb
+C:\Users\Athos\Desktop\GFLauncher\GFLauncher\GFLauncher\obj\Release\net6.0-windows\AccountManagerWindow.g.cs
+C:\Users\Athos\Desktop\GFLauncher\GFLauncher\GFLauncher\obj\Release\net6.0-windows\HudConfigs.g.cs
+C:\Users\Athos\Desktop\GFLauncher\GFLauncher\GFLauncher\obj\Release\net6.0-windows\language.g.cs
+C:\Users\Athos\Desktop\GFLauncher\GFLauncher\GFLauncher\obj\Release\net6.0-windows\GFLauncher_Content.g.cs
+C:\Users\Athos\Desktop\GFLauncher\GFLauncher\GFLauncher\obj\Release\net6.0-windows\GFLauncher_MarkupCompile.cache
+C:\Users\Athos\Desktop\GFLauncher\GFLauncher\GFLauncher\obj\Release\net6.0-windows\GFLauncher_MarkupCompile.lref
+C:\Users\Athos\Desktop\GFLauncher\GFLauncher\GFLauncher\obj\Release\net6.0-windows\AccountManagerWindow.baml
+C:\Users\Athos\Desktop\GFLauncher\GFLauncher\GFLauncher\obj\Release\net6.0-windows\HudConfigs.baml
+C:\Users\Athos\Desktop\GFLauncher\GFLauncher\GFLauncher\obj\Release\net6.0-windows\language.baml
+C:\Users\Athos\Desktop\GFLauncher\GFLauncher\GFLauncher\obj\Release\net6.0-windows\GFLauncher.g.resources
+C:\Users\Athos\Desktop\GFLauncher\GFLauncher\GFLauncher\obj\Release\net6.0-windows\GFLauncher.Form1.resources
+C:\Users\Athos\Desktop\GFLauncher\GFLauncher\GFLauncher\obj\Release\net6.0-windows\GFLauncher.Graphic.resources
+C:\Users\Athos\Desktop\GFLauncher\GFLauncher\GFLauncher\obj\Release\net6.0-windows\GFLauncher.Properties.Resources.resources
+C:\Users\Athos\Desktop\GFLauncher\GFLauncher\GFLauncher\obj\Release\net6.0-windows\GFLauncher.Som.resources
+C:\Users\Athos\Desktop\GFLauncher\GFLauncher\GFLauncher\obj\Release\net6.0-windows\GFLauncher.csproj.GenerateResource.cache
+C:\Users\Athos\Desktop\GFLauncher\GFLauncher\GFLauncher\obj\Release\net6.0-windows\GFLauncher.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Athos\Desktop\GFLauncher\GFLauncher\GFLauncher\obj\Release\net6.0-windows\GFLauncher.AssemblyInfoInputs.cache
+C:\Users\Athos\Desktop\GFLauncher\GFLauncher\GFLauncher\obj\Release\net6.0-windows\GFLauncher.AssemblyInfo.cs
+C:\Users\Athos\Desktop\GFLauncher\GFLauncher\GFLauncher\obj\Release\net6.0-windows\GFLauncher.csproj.CoreCompileInputs.cache
+C:\Users\Athos\Desktop\GFLauncher\GFLauncher\GFLauncher\obj\Release\net6.0-windows\GFLauncher.dll
+C:\Users\Athos\Desktop\GFLauncher\GFLauncher\GFLauncher\obj\Release\net6.0-windows\refint\GFLauncher.dll
+C:\Users\Athos\Desktop\GFLauncher\GFLauncher\GFLauncher\obj\Release\net6.0-windows\GFLauncher.pdb
+C:\Users\Athos\Desktop\GFLauncher\GFLauncher\GFLauncher\obj\Release\net6.0-windows\GFLauncher.genruntimeconfig.cache
+C:\Users\Athos\Desktop\GFLauncher\GFLauncher\GFLauncher\obj\Release\net6.0-windows\ref\GFLauncher.dll
+C:\Users\pedro\Desktop\MMO-Launcher\launcher\GFLauncher\bin\Release\net6.0-windows\GFLauncher.exe
+C:\Users\pedro\Desktop\MMO-Launcher\launcher\GFLauncher\bin\Release\net6.0-windows\GFLauncher.deps.json
+C:\Users\pedro\Desktop\MMO-Launcher\launcher\GFLauncher\bin\Release\net6.0-windows\GFLauncher.runtimeconfig.json
+C:\Users\pedro\Desktop\MMO-Launcher\launcher\GFLauncher\bin\Release\net6.0-windows\GFLauncher.dll
+C:\Users\pedro\Desktop\MMO-Launcher\launcher\GFLauncher\bin\Release\net6.0-windows\GFLauncher.pdb
+C:\Users\pedro\Desktop\MMO-Launcher\launcher\GFLauncher\obj\Release\net6.0-windows\AccountManagerWindow.g.cs
+C:\Users\pedro\Desktop\MMO-Launcher\launcher\GFLauncher\obj\Release\net6.0-windows\HudConfigs.g.cs
+C:\Users\pedro\Desktop\MMO-Launcher\launcher\GFLauncher\obj\Release\net6.0-windows\language.g.cs
+C:\Users\pedro\Desktop\MMO-Launcher\launcher\GFLauncher\obj\Release\net6.0-windows\GFLauncher_Content.g.cs
+C:\Users\pedro\Desktop\MMO-Launcher\launcher\GFLauncher\obj\Release\net6.0-windows\GFLauncher_MarkupCompile.cache
+C:\Users\pedro\Desktop\MMO-Launcher\launcher\GFLauncher\obj\Release\net6.0-windows\GFLauncher_MarkupCompile.lref
+C:\Users\pedro\Desktop\MMO-Launcher\launcher\GFLauncher\obj\Release\net6.0-windows\AccountManagerWindow.baml
+C:\Users\pedro\Desktop\MMO-Launcher\launcher\GFLauncher\obj\Release\net6.0-windows\HudConfigs.baml
+C:\Users\pedro\Desktop\MMO-Launcher\launcher\GFLauncher\obj\Release\net6.0-windows\language.baml
+C:\Users\pedro\Desktop\MMO-Launcher\launcher\GFLauncher\obj\Release\net6.0-windows\GFLauncher.g.resources
+C:\Users\pedro\Desktop\MMO-Launcher\launcher\GFLauncher\obj\Release\net6.0-windows\GFLauncher.Form1.resources
+C:\Users\pedro\Desktop\MMO-Launcher\launcher\GFLauncher\obj\Release\net6.0-windows\GFLauncher.Graphic.resources
+C:\Users\pedro\Desktop\MMO-Launcher\launcher\GFLauncher\obj\Release\net6.0-windows\GFLauncher.Properties.Resources.resources
+C:\Users\pedro\Desktop\MMO-Launcher\launcher\GFLauncher\obj\Release\net6.0-windows\GFLauncher.Som.resources
+C:\Users\pedro\Desktop\MMO-Launcher\launcher\GFLauncher\obj\Release\net6.0-windows\GFLauncher.csproj.GenerateResource.cache
+C:\Users\pedro\Desktop\MMO-Launcher\launcher\GFLauncher\obj\Release\net6.0-windows\GFLauncher.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pedro\Desktop\MMO-Launcher\launcher\GFLauncher\obj\Release\net6.0-windows\GFLauncher.AssemblyInfoInputs.cache
+C:\Users\pedro\Desktop\MMO-Launcher\launcher\GFLauncher\obj\Release\net6.0-windows\GFLauncher.AssemblyInfo.cs
+C:\Users\pedro\Desktop\MMO-Launcher\launcher\GFLauncher\obj\Release\net6.0-windows\GFLauncher.csproj.CoreCompileInputs.cache
+C:\Users\pedro\Desktop\MMO-Launcher\launcher\GFLauncher\obj\Release\net6.0-windows\GFLauncher.dll
+C:\Users\pedro\Desktop\MMO-Launcher\launcher\GFLauncher\obj\Release\net6.0-windows\refint\GFLauncher.dll
+C:\Users\pedro\Desktop\MMO-Launcher\launcher\GFLauncher\obj\Release\net6.0-windows\GFLauncher.pdb
+C:\Users\pedro\Desktop\MMO-Launcher\launcher\GFLauncher\obj\Release\net6.0-windows\GFLauncher.genruntimeconfig.cache
+C:\Users\pedro\Desktop\MMO-Launcher\launcher\GFLauncher\obj\Release\net6.0-windows\ref\GFLauncher.dll
+C:\Users\pedro\Desktop\MMO-Launcher\launcher\GFLauncher\bin\Release\net6.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\pedro\Desktop\MMO-Launcher\launcher\GFLauncher\bin\Release\net6.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\pedro\Desktop\MMO-Launcher\launcher\GFLauncher\bin\Release\net6.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\pedro\Desktop\MMO-Launcher\launcher\GFLauncher\bin\Release\net6.0-windows\Microsoft.Web.WebView2.Core.dll
+C:\Users\pedro\Desktop\MMO-Launcher\launcher\GFLauncher\bin\Release\net6.0-windows\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\pedro\Desktop\MMO-Launcher\launcher\GFLauncher\bin\Release\net6.0-windows\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\pedro\Desktop\MMO-Launcher\launcher\GFLauncher\bin\Release\net6.0-windows\Microsoft.Web.WebView2.Core.xml
+C:\Users\pedro\Desktop\MMO-Launcher\launcher\GFLauncher\bin\Release\net6.0-windows\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\pedro\Desktop\MMO-Launcher\launcher\GFLauncher\bin\Release\net6.0-windows\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\pedro\Desktop\MMO-Launcher\launcher\GFLauncher\obj\Release\net6.0-windows\GFLauncher.csproj.AssemblyReference.cache
+C:\Users\pedro\Desktop\MMO-Launcher\launcher\GFLauncher\obj\Release\net6.0-windows\GFLauncher.csproj.Up2Date

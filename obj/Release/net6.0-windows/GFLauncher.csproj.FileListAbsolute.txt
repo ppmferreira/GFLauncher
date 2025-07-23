@@ -125,3 +125,4 @@ C:\Users\pedro\Desktop\MMO-Launcher\launcher\GFLauncher\bin\Release\net6.0-windo
 C:\Users\pedro\Desktop\MMO-Launcher\launcher\GFLauncher\bin\Release\net6.0-windows\Microsoft.Web.WebView2.Wpf.xml
 C:\Users\pedro\Desktop\MMO-Launcher\launcher\GFLauncher\obj\Release\net6.0-windows\GFLauncher.csproj.AssemblyReference.cache
 C:\Users\pedro\Desktop\MMO-Launcher\launcher\GFLauncher\obj\Release\net6.0-windows\GFLauncher.csproj.Up2Date
+C:\Users\pedro\Desktop\MMO-Launcher\launcher\GFLauncher\obj\Release\net6.0-windows\GFLauncher.sourcelink.json

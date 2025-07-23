@@ -761,13 +761,22 @@ private async void Form1_Load(object sender, EventArgs e)
                         return filesToUpdate;
                 }
                 var localLines = await File.ReadAllLinesAsync(localPath);
-                var localDict = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase);
+                // Dicionário: nome do arquivo => (tamanho, hash)
+                var localInfo = new Dictionary<string, (string size, string hash)>(StringComparer.OrdinalIgnoreCase);
                 foreach (var line in localLines)
                 {
                     var parts = line.Split(':');
                     if (parts.Length < 4) continue;
                     string fileName = parts[0].TrimStart(new char[] {'\\', '/'}).Trim();
-                    localDict[fileName] = line.Trim();
+                    string size = parts[2];
+                    string hash = parts[3];
+                    localInfo[fileName] = (size, hash);
+                }
+
+                Debug.WriteLine($"Exemplo de linhas locais (primeiras 3):");
+                for (int i = 0; i < Math.Min(3, localLines.Length); i++)
+                {
+                    Debug.WriteLine($"  Local[{i}]: '{localLines[i].Trim()}'");
                 }
 
                 // Lê o manifest do servidor
@@ -777,15 +786,44 @@ private async void Form1_Load(object sender, EventArgs e)
                     string manifestUrl = "https://gamearkadia.com.br/Update/GameDataList.txt";
                     string manifestContent = await client.GetStringAsync(manifestUrl);
                     var manifestLines = manifestContent.Split(new[] { '\n', '\r' }, StringSplitOptions.RemoveEmptyEntries);
+
+                    Debug.WriteLine($"Total arquivos locais: {localInfo.Count}");
+                    Debug.WriteLine($"Total arquivos servidor: {manifestLines.Length}");
+
+                    Debug.WriteLine($"Exemplo de linhas servidor (primeiras 3):");
+                    for (int i = 0; i < Math.Min(3, manifestLines.Length); i++)
+                    {
+                        Debug.WriteLine($"  Servidor[{i}]: '{manifestLines[i].Trim()}'");
+                    }
+
                     foreach (var line in manifestLines)
                     {
                         var parts = line.Split(':');
                         if (parts.Length < 4) continue;
                         string fileName = parts[0].TrimStart(new char[] {'\\', '/'}).Trim();
-                        string serverLine = line.Trim();
-                        if (!localDict.ContainsKey(fileName) || localDict[fileName] != serverLine)
+                        string serverSize = parts[2];
+                        string serverHash = parts[3];
+
+                        if (!localInfo.TryGetValue(fileName, out var localData))
                         {
+                            Debug.WriteLine($"Arquivo não existe localmente: {fileName}");
                             filesToUpdate.Add(fileName);
+                            continue;
+                        }
+
+                        // Tamanho
+                        if (localData.size != serverSize)
+                        {
+                            Debug.WriteLine($"  Tamanho diferente: local='{localData.size}' vs servidor='{serverSize}'");
+                            filesToUpdate.Add(fileName);
+                            continue;
+                        }
+                        // Hash
+                        if (!string.Equals(localData.hash, serverHash, StringComparison.OrdinalIgnoreCase))
+                        {
+                            Debug.WriteLine($"  Hash diferente: local='{localData.hash}' vs servidor='{serverHash}'");
+                            filesToUpdate.Add(fileName);
+                            continue;
                         }
                     }
                 }
@@ -794,6 +832,8 @@ private async void Form1_Load(object sender, EventArgs e)
             {
                 Debug.WriteLine($"Erro ao comparar manifests: {ex.Message}");
             }
+
+            Debug.WriteLine($"Total de arquivos para atualizar: {filesToUpdate.Count}");
             return filesToUpdate;
         }
 
@@ -833,6 +873,16 @@ private async Task DownloadFilesFromServerAsync(List<string> filesToUpdate)
             int currentFilePercent = 0;
             bool[] fileDone = new bool[filesToUpdate.Count];
 
+            // Baixa o manifest do servidor só uma vez por execução
+            string[]? serverManifestLines = null;
+            try
+            {
+                string manifestUrl = "https://gamearkadia.com.br/Update/GameDataList.txt";
+                string manifestContent = await client.GetStringAsync(manifestUrl);
+                serverManifestLines = manifestContent.Split(new[] { '\n', '\r' }, StringSplitOptions.RemoveEmptyEntries);
+            }
+            catch { }
+
             for (int i = 0; i < filesToUpdate.Count; i++)
             {
                 int idx = i;
@@ -847,6 +897,21 @@ private async Task DownloadFilesFromServerAsync(List<string> filesToUpdate)
                         Directory.CreateDirectory(Path.GetDirectoryName(localPath) ?? Application.StartupPath);
 
                         string downloadPath = localPath;
+
+                        // Recupera o timestamp do manifest do servidor
+                        string? serverManifestLine = null;
+                        if (serverManifestLines != null)
+                        {
+                            serverManifestLine = serverManifestLines.FirstOrDefault(l => l.StartsWith(fileName + ":"));
+                        }
+
+                        string? serverTimestamp = null;
+                        if (!string.IsNullOrEmpty(serverManifestLine))
+                        {
+                            var parts = serverManifestLine.Split(':');
+                            if (parts.Length >= 2)
+                                serverTimestamp = parts[1];
+                        }
 
                         using (var response = await client.GetAsync(fileUrl, HttpCompletionOption.ResponseHeadersRead))
                         {
@@ -880,6 +945,14 @@ private async Task DownloadFilesFromServerAsync(List<string> filesToUpdate)
                                             }
                                         }
                                     }
+                                }
+                            }
+                            // Ajusta o timestamp do arquivo local para o do servidor
+                            if (!string.IsNullOrEmpty(serverTimestamp) && serverTimestamp.Length == 14)
+                            {
+                                if (DateTime.TryParseExact(serverTimestamp, "yyyyMMddHHmmss", null, System.Globalization.DateTimeStyles.AssumeUniversal, out DateTime dt))
+                                {
+                                    File.SetLastWriteTimeUtc(downloadPath, dt);
                                 }
                             }
                         }
@@ -1009,32 +1082,43 @@ private async Task DownloadFilesFromServerAsync(List<string> filesToUpdate)
                         }
 
                         string fileName = Path.GetFileName(filePath);
-                        // Exclui GameDataList.txt, accounts.txt, arquivos temporários, logs, o próprio launcher e sua DLL
-                        if (fileName == "GameDataList.txt" ||
+                        string relPath = Path.GetRelativePath(gameDir, filePath);
+                        string relPathWin = "\\" + relPath.Replace("/", "\\");
+
+                        // Exclui GameDataList.txt, accounts.txt, arquivos temporários, logs, o próprio launcher, sua DLL
+                        if (
+                            fileName == "GameDataList.txt" ||
                             fileName.Equals("accounts.txt", StringComparison.OrdinalIgnoreCase) ||
                             fileName.EndsWith(".tmp") ||
                             fileName.EndsWith(".log") ||
                             fileName.Equals("GFLauncher.exe", StringComparison.OrdinalIgnoreCase) ||
-                            fileName.Equals("GFLauncher.dll", StringComparison.OrdinalIgnoreCase))
+                            fileName.Equals("GFLauncher.dll", StringComparison.OrdinalIgnoreCase)
+                        )
                         {
                             return;
                         }
 
-                        string relativePath = Path.GetRelativePath(gameDir, filePath);
-                        string relativePathWin = "\\" + relativePath.Replace("/", "\\");
+                        // Ignora qualquer arquivo ou pasta dentro de 'GFLauncher.exe.WebView2'
+                        if (
+                            relPath.IndexOf("GFLauncher.exe.WebView2", StringComparison.OrdinalIgnoreCase) >= 0 ||
+                            relPathWin.IndexOf("GFLauncher.exe.WebView2", StringComparison.OrdinalIgnoreCase) >= 0
+                        )
+                        {
+                            return;
+                        }
+
+                        // Sempre usa o LastWriteTimeUtc real do arquivo, tamanho e hash
                         string timestamp;
                         long size;
-
                         try
                         {
-                            timestamp = fileInfo.LastWriteTime.ToString("yyyyMMddHHmmss");
+                            timestamp = fileInfo.LastWriteTimeUtc.ToString("yyyyMMddHHmmss");
                             size = fileInfo.Length;
                         }
                         catch
                         {
                             return;
                         }
-
                         string hash;
                         try
                         {
@@ -1044,8 +1128,8 @@ private async Task DownloadFilesFromServerAsync(List<string> filesToUpdate)
                         {
                             hash = "0";
                         }
-
-                        string line = $"{relativePathWin}:{timestamp}:{size}:{hash}";
+                        // Linha do manifest local: caminho:LastWriteTimeUtc:tamanho:hash
+                        string line = $"{relPathWin}:{timestamp}:{size}:{hash}";
                         fileList.Add(line);
 
                         // Atualiza UI a cada 50 arquivos para não sobrecarregar
@@ -1054,7 +1138,7 @@ private async Task DownloadFilesFromServerAsync(List<string> filesToUpdate)
                             idx++;
                             if (onProgress != null && (idx % 50 == 0 || idx == total))
                             {
-                                onProgress(relativePathWin, idx, total);
+                                onProgress(relPathWin, idx, total);
                             }
                         }
                     });

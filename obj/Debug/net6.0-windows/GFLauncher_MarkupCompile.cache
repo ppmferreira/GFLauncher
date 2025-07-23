@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\disco\OneDrive\Área de Trabalho\GFLauncher\GFLauncher\obj\Debug\net6.0-windows\
+C:\Users\pedro\Desktop\MMO-Launcher\launcher\GFLauncher\obj\Debug\net6.0-windows\
 GFLauncher
 none
 false
-TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+TRACE;DEBUG;NET;NET6_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 
 3-473427596
-195630860
-14413025426
-203155564505
+41700037916
+17-1950124053
+206-688356972
 AccountManagerWindow.xaml;HudConfigs.xaml;language.xaml;
 
 False

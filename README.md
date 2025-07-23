@@ -1,20 +1,24 @@
 # GFLauncher
 
-Um launcher moderno para Grand Fantasia, desenvolvido em C# WinForms, com atualização automática, verificação de integridade e integração com WebView2.
+> Um launcher moderno, rápido e seguro para Grand Fantasia, feito em C# WinForms.
 
-## Recursos
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://coff.ee/pedroferreiradev)
 
-- Atualização automática de arquivos do jogo e do próprio launcher
-- Verificação de integridade dos arquivos via GameDataList.txt
-- Download incremental de arquivos ausentes ou desatualizados
+---
+
+## ✨ Principais Recursos
+
+- Atualização automática dos arquivos do jogo e do próprio launcher
+- Verificação de integridade via `GameDataList.txt`
+- Download incremental apenas do que mudou
 - Barra de progresso e status detalhado
 - Interface moderna com WebView2 para notícias
-- Suporte a múltiplas contas (accounts.txt)
-- Autoatualização do GFLauncher.exe e GFLauncher.dll (sem travar)
+- Suporte a múltiplas contas
+- Autoatualização do launcher sem travar
 
-## Como usar
+## 🚀 Como usar
 
-1. **Extraia todos os arquivos do pacote na pasta do jogo**
+1. Extraia todos os arquivos do pacote na pasta do jogo
 2. Execute `GFLauncher.exe` como administrador
 3. O launcher irá:
    - Verificar e atualizar arquivos do jogo
@@ -24,25 +28,37 @@ Um launcher moderno para Grand Fantasia, desenvolvido em C# WinForms, com atuali
 4. Clique em **Escanear** para forçar uma verificação manual
 5. Clique em **Iniciar** para abrir o jogo
 
-## Estrutura de arquivos
+## 📁 Estrutura de arquivos
 
 - `GFLauncher.exe` — O launcher principal
 - `GFLauncher.dll` — Biblioteca do launcher
 - `GameDataList.txt` — Lista de integridade dos arquivos
 - `accounts.txt` — Contas salvas (opcional)
 - `version.txt`, `client.ini` — Arquivos importantes do jogo
-- `WebView2` — Pasta de dependências do navegador embutido
+- `GFLauncher.exe.WebView2` — Pasta de dependências do navegador embutido (IGNORADA pelo launcher)
 
-## Atualização automática
+## 🔒 Exclusão automática da pasta WebView2
+
+O launcher ignora automaticamente todos os arquivos e subpastas dentro de `GFLauncher.exe.WebView2` ao gerar o `GameDataList.txt`.
+
+**Vantagens:**
+
+- Nenhum arquivo da pasta `GFLauncher.exe.WebView2` será listado ou baixado pelo launcher.
+- Reduz erros de acesso e conflitos de arquivos em uso.
+- Atualizações mais rápidas e sem downloads desnecessários.
+
+## 🔄 Atualização automática (Ainda vou fazer)
 
 - O launcher baixa novas versões de si mesmo como `.new` (ex: `GFLauncher.exe.new`)
 - Ao iniciar, se `.new` existir, faz backup do antigo e troca automaticamente
 - Não é necessário baixar manualmente novas versões
 
-## Requisitos
+## 💻 Requisitos
 
 - Windows 7/8/10/11
 - .NET Framework 4.7.2 ou superior
 - WebView2 Runtime (instalado automaticamente se necessário)
 
-Desenvolvido por Pedro Ferreira.
+---
+
+Desenvolvido por Pedro Ferreira — [Buy me a coffee!](https://coff.ee/pedroferreiradev)

@@ -689,10 +689,6 @@ private async void Form1_Load(object sender, EventArgs e)
 
         private async void pb_Start_Click(object sender, EventArgs e)
         {
-            // Desabilita o botão para evitar múltiplos cliques
-            pb_Start.Enabled = false;
-            lbl_status.Text = "Iniciando jogo...";
-
             try
             {
                 // Check if accounts.txt exists before trying to read it
@@ -736,7 +732,6 @@ private async void Form1_Load(object sender, EventArgs e)
                     UseShellExecute = true
                 };
                 GameProc = Process.Start(startInfo);
-                this.Close();
             }
             catch (Exception ex)
             {

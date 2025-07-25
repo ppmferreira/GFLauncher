@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCopyrightAttribute("By Toddy")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Grand Fantasia Arkadia Launcher")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+746808a13006657d0915114d4f3b79e4d1e8e7a8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e968d9f879d8d418efad485a4e65936e2cff0c1e")]
 [assembly: System.Reflection.AssemblyProductAttribute("GFLauncher")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GFLauncher")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
